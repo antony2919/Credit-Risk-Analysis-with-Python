@@ -1,0 +1,11 @@
+
+Boxplot(argumentos)
+dataset.boxplot(column='income', showfliers='T',notch=0)
+Argumentos
+column=''  ->nombre de la columna
+showfliers='T'  -> bool, default:True  #Muestra los valores atipicos mas alla de la caja
+notch=0         ->bool, default False  #Muestra una muesca cuando esta en TRUE que representan el intervalo de confianza alrededor de la mediana... bootstrap describe cómo se calculan las ubicaciones de las muescas.
+sym='+'		-> str, optional.El símbolo predeterminado para los puntos de vuelo. Una cadena vacía ('') oculta los volantes. Si Ninguno, entonces los volantes predeterminados a 'b +'. El parámetro flierprops proporciona más control.
+vert=1		->bool, default: True. Si True, dibuja cajas verticales. Si es False, dibuja cajas horizontales.
+whis=1.5	-> float o (flotar, flotar), predeterminado: 1,5. La posición de los bigotes(son los simbolos sym).
+by='zone'
